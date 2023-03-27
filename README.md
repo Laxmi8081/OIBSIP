@@ -1,2 +1,6 @@
 # OIBSIP
-Web Development and Designing Intern at Oasis Infobyte.    &lt;br/>   #Level1  &lt;br/>  
+<b>Web Development and Designing Intern at Oasis Infobyte. </b>   <br/>  
+<b>#Level1 </b> <br/>  
+Task1 : Landing Page    <br/>
+Task2 : Portfolio    <br/>
+Task3 : Temperature Converter         <br/>
