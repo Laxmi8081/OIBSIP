@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    max-width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar
+{
+    display: flex;
+    height: 67px;
+    width:100%;
+    float: right;
+    padding-left:650px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.navbar li
+{
+    list-style: none;
+    margin: 0 12px;
+}
+a{
+   text-decoration: none; 
+   transition: all .5s;
+}
+a:hover{
+       background-color: aliceblue;
+       font-weight: bold;
+       color: black;
+       border-radius: 7px;
+       box-shadow: 2px 3px 4px 4px aliceblue;
+       width: auto;
+       height: 20px;
+}
+.topleft{
+width: 50%;
+padding: 12px 0;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.imag3{
+    width: auto;
+    height: 66px;
+}
+.imag1{
+    height: 400px;
+    width: 500px;
+    float: right;
+    cursor: zoom-in;
+}
+.imag2{
+    height:200px;
+     width:auto;
+    align-self:center ;
+    padding: 2px 2px 2px 2px ;
+    border: double;
+    cursor: cell;
+}
+.logo{
+    font-size: 1.5em;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+}
+h1{
+    font-weight: bolder;
+
+}
+main{
+    background-color: #93c572;
+}
+.section1 p{
+    padding-left:70px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2.5em;
+    padding-top: 26px;
+}
+.section2 p{
+    font-weight: bold;
+    
+}
+mark{
+    background-color: #14e2e221;
+}
+.box{
+    padding: 8px 0px;
+    margin: 50px 22px;
+    min-width: 25vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.box li
+{
+    list-style-type: none;
+    
+}
+.box ul li
+{
+    margin: 12px 2px;
+} 
+.highlighted
+{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box h2
+{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.section2 p
+{
+ padding: 1vw;
+ text-align: center;
+ /* padding-top: 60px;
+ padding-bottom:60px ; */
+}
+.section3
+{
+    padding-left: 63px;
+    padding-right: 63px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: gainsboro;
+}
+.section3 table
+{
+     width: 54vw;
+     margin-bottom: 40px; 
+     margin-top: 40px;
+     border-collapse: collapse;
+}
+.section3 table th
+{
+    border-bottom: 2px solid black;
+    width: 23vw;
+    margin: 140px 0px;
+    padding: 14px 0px;
+}
+.section3 table td
+{
+    padding-left: 90px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.section3 table tr
+{
+    border-bottom: 2px solid black;
+}
+.section3 h1
+{
+    font-size: 2.3rem;
+    padding-top: 26px;
+}
+
+
+.bottom-left{
+    width: 30%;
+}
+
+.bottom-right{
+    width: 50%;
+}
+
+.foot-box ul{
+    list-style: none;
+}
+
+.a1{
+    text-decoration: none;
+    color: #868f98;
+}
+.apps i {
+    margin-left: 10px;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    background-color:#93c572;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.apps::before{
+    left: -150px;
+    background-color: #494234;
+}
+.apps i:hover{
+    transform: translateX(-7px);
+    cursor: pointer;
+    
+}
+.footer{
+    margin-top: 0px;
+   
+    padding: 50px;
+    background-color: #333;
+    color: #efefef;
+    display: flex;
+
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 1;
+}
+.footer div h3{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    padding: 10px;
+    
+     
+}
+.col-1 a:hover{
+    background-color: transparent;
+    color: aqua;
+    box-sizing: 0px 0px 0px 0px rgb(230, 208, 208);
+
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline:none;
+    border: none;
+}
+form button{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    columns: #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

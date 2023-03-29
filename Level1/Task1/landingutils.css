@@ -1,0 +1,88 @@
+
+.min-screen{
+    min-height: 100vh;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.font-bold{
+    font-weight: 900px;
+
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+justify-content: space-between;
+}
+.justify-center{
+ justify-content: center;
+}
+.my-1{
+  margin-top: 13px;
+  margin-bottom: 5px;
+  padding: 15px;
+  padding-left: 40px;
+}
+.my-1 p{
+    text-align: center;
+}
+.my-2{
+    margin-top: 22px;
+    margin-bottom: 10px;  
+    font-size: 4rem; 
+  }
+  .my-2 p{
+    margin-bottom: 5px;
+  }
+
+  .px-3{
+    padding-top: 30px;
+  }
+
+.px-2{
+ margin-left: 13px;
+ margin-right: 13px;
+}
+.text-blue{
+    color: rgb(118, 81, 206);
+}
+.btn{
+    padding: 7px 12px;
+    border: 2px solid ;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+    background-color:#343259;
+    box-shadow: 2px 2px 3px 3px gray;
+}
+.btn:hover{
+    border-radius: 10px;
+    color: aqua;
+    box-shadow: 2px 2px 3px 4px rgb(68, 38, 38);
+}
+
+.book:hover{
+    border-radius: 10px;
+    color: aqua;
+    box-shadow: 2px 2px 3px 4px rgb(68, 38, 38);
+}
+
+.overflow-x-hidden{
+    overflow-x:hidden;
+}
+
+.logo-font{
+    color:#343259;
+}
